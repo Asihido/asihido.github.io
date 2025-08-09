@@ -1,32 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crochet by Asih Ido</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <h1>Crochet by Asih Ido</h1>
-</header>
-<main>
-    <section>
-        <h2>Welcome</h2>
-        <p>Discover beautiful crochet patterns — free & paid — by Asih Ido from Semarang, Central Java.</p>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Crochet by Asih Ido Logo">
+            <h1>Crochet by Asih Ido</h1>
+        </div>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#products">Produk</a>
+            <a href="#patterns">Pola</a>
+            <a href="#about">Tentang Saya</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="images/sample1.jpg" alt="Crochet Sample">
+        <div class="hero-text">
+            <h2>Kreasi Rajut yang Hangat dan Indah</h2>
+            <p>Temukan produk rajut unik & pola crochet yang memikat hati.</p>
+        </div>
     </section>
-    <section>
-        <h2>About Me</h2>
-        <p>Halo! Saya Asih Ido dari Semarang, Jawa Tengah. Saya mencintai crochet sejak kecil...</p>
+
+    <section id="products">
+        <h2>Produk Rajut</h2>
+        <div class="product-grid">
+            <img src="images/sample1.jpg" alt="Produk 1">
+            <img src="images/sample2.jpg" alt="Produk 2">
+            <img src="images/sample3.jpg" alt="Produk 3">
+            <img src="images/sample4.jpg" alt="Produk 4">
+        </div>
     </section>
-    <section>
-        <h2>Contact</h2>
-        <p>WhatsApp: <a href="https://wa.me/6283863155655">+62 838-6315-5655</a></p>
-        <p>TikTok: <a href="https://www.tiktok.com/@asihido">Asih Ido TikTok</a></p>
+
+    <section id="patterns">
+        <h2>Pola Crochet</h2>
+        <div class="pattern-list">
+            <div class="pattern">
+                <h3>Pola Gratis</h3>
+                <p>Unduh pola rajut gratis untuk memulai perjalanan rajut Anda.</p>
+                <button>Download</button>
+            </div>
+            <div class="pattern">
+                <h3>Pola Berbayar</h3>
+                <p>Pola eksklusif dengan detail dan petunjuk lengkap.</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
     </section>
-</main>
-<footer>
-    <p>&copy; 2025 Crochet by Asih Ido</p>
-</footer>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <img src="images/asih_placeholder.jpg" alt="Asih Ido">
+            <p>Halo! Saya Asih Ido dari Semarang, Jawa Tengah. Sejak kecil saya menyukai seni rajut, 
+            dan kini saya membagikan kreasi serta pola rajut kepada semua orang. 
+            Setiap karya saya dibuat dengan cinta dan ketelitian, menggabungkan warna-warna lembut 
+            dan desain yang unik. Saya percaya rajutan bukan hanya kerajinan tangan, tapi juga bentuk 
+            seni yang dapat menghadirkan kehangatan di setiap rumah.</p>
+            <blockquote>"Rajut adalah cerita yang ditulis dengan benang."</blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Hubungi saya langsung melalui WhatsApp:</p>
+        <a href="https://wa.me/6283863155655" class="whatsapp-btn">Chat di WhatsApp</a>
+        <p>Ikuti saya di TikTok:</p>
+        <a href="https://www.tiktok.com/@asihido" target="_blank">TikTok Asih Ido</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Crochet by Asih Ido. All rights reserved.</p>
+    </footer>
 </body>
 </html>

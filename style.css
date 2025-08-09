@@ -1,8 +1,92 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfcf9; color: #333;}
-header { background: #f6d6ad; padding: 20px; text-align: center;}
-h1 { margin: 0; }
-main { padding: 20px; max-width: 800px; margin: auto;}
-section { margin-bottom: 30px;}
-footer { background: #f6d6ad; text-align: center; padding: 10px;}
-a { color: #b36b00; text-decoration: none;}
-a:hover { text-decoration: underline;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fffaf6;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6d6c8;
+    padding: 10px 20px;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.product-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+.pattern-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.pattern {
+    background: #ffece3;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.about-content img {
+    width: 200px;
+    border-radius: 10px;
+}
+blockquote {
+    font-style: italic;
+    color: #777;
+}
+.whatsapp-btn {
+    background: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f6d6c8;
+}
